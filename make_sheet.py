@@ -1,10 +1,10 @@
-import io
-from openpyxl import load_workbook
-import datetime
 import calendar
-from openpyxl.styles import PatternFill, Border, Side
+import datetime
+import io
 
 from jours_feries_france import JoursFeries
+from openpyxl import load_workbook
+from openpyxl.styles import Border, PatternFill, Side
 
 
 MONTHS = [

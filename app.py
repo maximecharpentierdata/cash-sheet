@@ -1,8 +1,11 @@
-import streamlit as st
 import datetime
+
+import streamlit as st
+
 from jours_feries_france import JoursFeries
 
 from make_sheet import make_sheet
+
 
 CURRENT_YEAR = datetime.datetime.now().year
 
