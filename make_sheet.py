@@ -2,7 +2,6 @@ import calendar
 import datetime
 import io
 
-from jours_feries_france import JoursFeries
 from openpyxl import load_workbook
 from openpyxl.styles import Border, PatternFill, Side
 
