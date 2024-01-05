@@ -48,7 +48,7 @@ CLASSIC_BORDER = Border(
     bottom=Side(style="thin"),
 )
 
-EUR_CURRENCY_FORMAT = '_-* # ##0,00\ €_-;-* # ##0,00\ €_-;_-* "-"??\ €_-;_-@_-'
+EUR_CURRENCY_FORMAT = '# ##0,00\ "€"'
 
 
 def prepare_month(ws, year, off_days, month, last_cell=None):
